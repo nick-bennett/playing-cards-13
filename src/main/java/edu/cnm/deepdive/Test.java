@@ -1,5 +1,8 @@
 package edu.cnm.deepdive;
 
+import edu.cnm.deepdive.playingcards.model.Card;
+import edu.cnm.deepdive.playingcards.model.Rank;
+import edu.cnm.deepdive.playingcards.model.Suit;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;

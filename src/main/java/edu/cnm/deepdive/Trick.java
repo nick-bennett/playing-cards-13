@@ -1,6 +1,9 @@
 package edu.cnm.deepdive;
 
-import edu.cnm.deepdive.Suit.Color;
+import edu.cnm.deepdive.playingcards.model.Card;
+import edu.cnm.deepdive.playingcards.model.Rank;
+import edu.cnm.deepdive.playingcards.model.Suit;
+import edu.cnm.deepdive.playingcards.model.Suit.Color;
 import java.security.SecureRandom;
 import java.util.ArrayList;
 import java.util.Collections;
