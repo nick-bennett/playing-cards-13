@@ -90,8 +90,8 @@ public class Hand<T> implements Iterable<T> {
     if (this == obj) {
       equal = true;
     } else if (obj instanceof Hand) {
-      //noinspection unchecked
-      equal = elements.equals(((Hand<T>) obj).elements);
+      //noinspection rawtypes
+      equal = elements.equals(((Hand) obj).elements);
     }
     return equal;
   }
